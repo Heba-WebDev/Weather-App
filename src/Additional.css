@@ -1,0 +1,26 @@
+
+
+
+.additional {
+display: flex;
+justify-content: space-around;
+gap: 1rem;
+padding: 1.3rem;
+background-color: rgba(255, 255, 255, 0.2);
+border-radius: 10px;
+
+}
+
+.humidity > p,
+.visibility > p,
+.uvindex > p {
+padding-top: 0.6rem;
+font-weight: 400;
+}
+
+.humidity > h3,
+.visibility > h3,
+.uvindex > h3 {
+text-align: center;
+font-weight: 700;
+}
