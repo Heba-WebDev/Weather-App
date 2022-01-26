@@ -44,7 +44,7 @@ const searchLocation = (event) => {
             </div>
             
            
-            {data.name != undefined &&
+            {data.name !== undefined &&
 
             <div className="additional">
             <div className="humidity">
