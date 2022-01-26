@@ -48,15 +48,15 @@ const searchLocation = (event) => {
 
             <div className="additional">
             <div className="humidity">
-            {data.main ?  <h3>{data.main.feels_like.toFixed()} <p>Feels like</p></h3> : null}
+            {data.main ?  <h3 className="humidity">{data.main.feels_like.toFixed()} <p>Feels like</p></h3> : null}
                     
                 </div>
                 <div className="visibility">
-                {data.main ?  <h3>{data.main.humidity.toFixed()} <p>humidity</p></h3> : null}
+                {data.main ?  <h3 className="visibility">{data.main.humidity.toFixed()} <p>humidity</p></h3> : null}
                    
                 </div>
                 <div className="uvindex">
-                {data.main ?  <h3>{data.main.pressure.toFixed()} <p>Pressure</p></h3> : null}
+                {data.main ?  <h3 className="uvindex">{data.main.pressure.toFixed()} <p>Pressure</p></h3> : null}
                 </div>
             </div> 
             
